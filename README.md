@@ -1,7 +1,4 @@
-# HunstmanCheck
-An IOS app front-end for SochiQR check 
-
-#How to launch project
+# How to launch project
 
 1. Clone the project
 2. Open terminal
@@ -10,3 +7,6 @@ An IOS app front-end for SochiQR check
 5. Run command `pod install` in terminal
 6. Open Xcode 
 7. Init your dev account to build the project
+
+## HunstmanCheck
+An IOS app front-end for SochiQR check 
