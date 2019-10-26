@@ -1,0 +1,29 @@
+### Headers settings
+company: dibado
+
+### Xcode project settings/Users/a/Documents/OpenRegistratura/Rambafile
+project_name: HuntsmanCheck 
+xcodeproj_path: HuntsmanCheck.xcodeproj
+
+### Code generation settings section
+# The main project target name
+project_target: HuntsmanCheck
+
+# The file path for new modules
+project_file_path: HuntsmanCheck/PresentationLayer
+
+# The Xcode group path to new modules
+project_group_path: HuntsmanCheck/PresentationLayer
+
+### Dependencies settings section
+podfile_path: Podfile
+
+catalogs:
+- 'https://github.com/rambler-digital-solutions/generamba-catalog'
+
+### Templates
+templates:
+- {name: artyomViperModule}
+#- {name: local_template_name, local: 'absolute/file/path'}
+# - {name: remote_template_name, git: 'https://github.com/igrekde/remote_template'}
+#- {name: catalog_template_name}

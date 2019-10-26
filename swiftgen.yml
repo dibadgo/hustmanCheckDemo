@@ -1,0 +1,37 @@
+# Относительный путь для сгенерированных файлов ------------
+output_dir: HuntsmanCheck/ApplicationLayer/Data/Resource/Generate
+#Строковые ресурсы ---------------------------
+strings:
+  inputs:
+    - HuntsmanCheck/ApplicationLayer/Data/Resource/ru.lproj/Localizable.strings
+  outputs:
+    - templateName: structured-swift4
+      output: Strings.swift
+
+#Ресурсы цветов и изображений ---------------------------
+xcassets:
+  inputs:
+    - HuntsmanCheck/ApplicationLayer/Data/Resource/Images.xcassets
+    - HuntsmanCheck/ApplicationLayer/Data/Resource/Colors.xcassets
+  outputs:
+    templateName: swift4
+    output: Assets.swift
+
+#Шрифты ---------------------------
+fonts:
+  inputs:
+    - HuntsmanCheck/ApplicationLayer/Data/Resource/Fonts/
+  outputs:
+    templateName: swift4
+    output: Fonts.swift
+
+#Сториборды ---------------------------
+ib:
+  inputs:
+    - HuntsmanCheck/PresentationLayer/
+#    - HuntsmanCheck/PresentationLayer/UserStories/RatingUserStory/Storyboard
+  outputs:
+    - templateName: scenes-swift4
+      output: StoryboardScenes.swift
+    - templateName: segues-swift4
+      output: StoryboardSegues.swift

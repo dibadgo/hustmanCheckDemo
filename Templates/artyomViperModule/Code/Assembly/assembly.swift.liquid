@@ -1,0 +1,61 @@
+//
+//  {{ module_info.name }}{{ module_info.file_name }}
+//  {{ module_info.project_name }}
+//
+//  Created by {{ developer.name }} on {{ date }}.
+//  Copyright © {{ year }} {{ developer.company }}. All rights reserved.
+//
+
+import Foundation
+import DITranquillity
+
+class {{ module_info.name }}Framework: DIFramework {
+    static func load(container: DIContainer) {
+        container
+                .append(part: {{ module_info.name }}RouterPart.self)
+                .append(part: {{ module_info.name }}InteractorsPart.self)
+                .append(part: {{ module_info.name }}PresentersPart.self)
+                .append(part: {{ module_info.name }}ViewPart.self)
+    }
+}
+
+fileprivate class {{ module_info.name }}ViewPart: DIPart {
+    static func load(container: DIContainer) {
+        container
+                .register({{ module_info.name }}ViewController.self)
+                .injection(cycle: true) {
+                    $0.output = $1
+                }
+                .lifetime(.objectGraph)
+    }
+}
+
+fileprivate class {{ module_info.name }}PresentersPart: DIPart {
+    static func load(container: DIContainer) {
+        container
+                .register({{ module_info.name }}Presenter.init(withView:router:interactor:))
+                .lifetime(.objectGraph)
+                .as(check: {{ module_info.name }}ViewOutput.self, { $0 })
+    }
+}
+
+fileprivate class {{ module_info.name }}RouterPart: DIPart {
+    static func load(container: DIContainer) {
+        container
+                .register1({{ module_info.name }}Router.init(with:))
+                .as(check: {{ module_info.name }}RouterInput.self, { $0 })
+    }
+}
+
+fileprivate class {{ module_info.name }}InteractorsPart: DIPart {
+    static func load(container: DIContainer) {
+        container
+                .register({{ module_info.name }}Interactor.init)
+                .injection(cycle: true) {
+                    $0.output = ($1 as {{ module_info.name }}Presenter)
+                }
+                .lifetime(.objectGraph)
+                .as(check: {{ module_info.name }}InteractorInput.self, { $0 })
+    }
+}
+

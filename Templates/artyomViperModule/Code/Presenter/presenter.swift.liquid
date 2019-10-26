@@ -1,0 +1,40 @@
+//
+//  {{ module_info.name }}{{ module_info.file_name }}
+//  {{ module_info.project_name }}
+//
+//  Created by {{ developer.name }} on {{ date }}.
+//  Copyright © {{ year }} {{ developer.company }}. All rights reserved.
+//
+
+class {{ module_info.name }}Presenter: BasePresenter {
+
+    private weak var view: {{ module_info.name }}ViewInput!
+    private var interactor: {{ module_info.name }}InteractorInput!
+    private var router: {{ module_info.name }}RouterInput!
+
+    init(withView view: {{ module_info.name }}ViewController, router: {{ module_info.name }}RouterInput, interactor: {{ module_info.name }}InteractorInput) {
+        self.view = view
+        self.router = router
+        self.interactor = interactor
+    }    
+}
+
+extension {{ module_info.name }}Presenter: {{ module_info.name }}ModuleInput{
+	
+}
+
+extension {{ module_info.name }}Presenter: {{ module_info.name }}ViewOutput{
+    func viewIsReady() {
+
+    }
+
+    func onTabCloseButton() {
+	    router.closeCurrentModule()
+    }
+}
+
+extension {{ module_info.name }}Presenter: {{ module_info.name }}InteractorOutput{
+    func onError(message: String){
+	    view.showError(withMessage: message)
+    }
+}
