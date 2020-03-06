@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		95B905FF5AA974887856C89A /* Pods_HuntsmanCheck.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F9BE4825C8F3EEE8E3E5A70 /* Pods_HuntsmanCheck.framework */; };
+		9A21E64A241299E3004E8A78 /* Ticket.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A21E649241299E3004E8A78 /* Ticket.storyboard */; };
+		9A7A473824129C6A0038241B /* Block.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A7A473724129C6A0038241B /* Block.storyboard */; };
 		9A9284EC23641A2900C23F4F /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A92843023641A2900C23F4F /* CoreDataManager.swift */; };
 		9A9284ED23641A2900C23F4F /* CoreDataProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A92843123641A2900C23F4F /* CoreDataProtocol.swift */; };
 		9A9284EE23641A2900C23F4F /* HuntsmanDB.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9A92843323641A2900C23F4F /* HuntsmanDB.xcdatamodeld */; };
@@ -97,6 +99,8 @@
 		9A92855223641A2A00C23F4F /* TicketRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9284D323641A2900C23F4F /* TicketRouterInput.swift */; };
 		9A92855323641A2A00C23F4F /* TicketRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9284D423641A2900C23F4F /* TicketRouter.swift */; };
 		9A92855423641A2A00C23F4F /* PresentationFramework.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9284D623641A2900C23F4F /* PresentationFramework.swift */; };
+		9AF6263C2411A03C00D1830C /* Scan.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AF6263B2411A03C00D1830C /* Scan.storyboard */; };
+		9AF6263E2411A11000D1830C /* History.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AF6263D2411A11000D1830C /* History.storyboard */; };
 		AC031260B1AF1320329E5159 /* BlockModuleOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC031DCF37717E07F4AD4573 /* BlockModuleOutput.swift */; };
 		AC03126FCF8C486912921F8E /* BlockInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC03175C7AEDA82AFA7A905A /* BlockInteractor.swift */; };
 		AC031338E08FB49AE209D58D /* Main.strings in Resources */ = {isa = PBXBuildFile; fileRef = AC031C6671BF227817B9BEF2 /* Main.strings */; };
@@ -123,6 +127,8 @@
 		62AE9C89630BEA033763D793 /* HuntsmanCheck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HuntsmanCheck.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F9BE4825C8F3EEE8E3E5A70 /* Pods_HuntsmanCheck.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HuntsmanCheck.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		92F116DF5CFF8452CB5C3AFE /* Pods-HuntsmanCheck.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HuntsmanCheck.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HuntsmanCheck/Pods-HuntsmanCheck.debug.xcconfig"; sourceTree = "<group>"; };
+		9A21E649241299E3004E8A78 /* Ticket.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Ticket.storyboard; sourceTree = "<group>"; };
+		9A7A473724129C6A0038241B /* Block.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Block.storyboard; sourceTree = "<group>"; };
 		9A92843023641A2900C23F4F /* CoreDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 		9A92843123641A2900C23F4F /* CoreDataProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataProtocol.swift; sourceTree = "<group>"; };
 		9A92843423641A2900C23F4F /* HuntsmanDB.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HuntsmanDB.xcdatamodel; sourceTree = "<group>"; };
@@ -213,6 +219,8 @@
 		9A9284D323641A2900C23F4F /* TicketRouterInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TicketRouterInput.swift; sourceTree = "<group>"; };
 		9A9284D423641A2900C23F4F /* TicketRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TicketRouter.swift; sourceTree = "<group>"; };
 		9A9284D623641A2900C23F4F /* PresentationFramework.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentationFramework.swift; sourceTree = "<group>"; };
+		9AF6263B2411A03C00D1830C /* Scan.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Scan.storyboard; sourceTree = "<group>"; };
+		9AF6263D2411A11000D1830C /* History.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = History.storyboard; sourceTree = "<group>"; };
 		AC03115AC540D3AD084C6FF1 /* BlockViewInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockViewInput.swift; sourceTree = "<group>"; };
 		AC0311CCF44FC19649425A03 /* CUIXLoading.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CUIXLoading.swift; sourceTree = "<group>"; };
 		AC03158FB801CCFFD82B323E /* BlockAssembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockAssembly.swift; sourceTree = "<group>"; };
@@ -604,6 +612,7 @@
 				9A92849C23641A2900C23F4F /* View */,
 				9A9284A323641A2900C23F4F /* Interactor */,
 				9A9284A723641A2900C23F4F /* Router */,
+				9AF6263B2411A03C00D1830C /* Scan.storyboard */,
 			);
 			path = Scan;
 			sourceTree = "<group>";
@@ -663,6 +672,7 @@
 				9A9284B123641A2900C23F4F /* View */,
 				9A9284B923641A2900C23F4F /* Interactor */,
 				9A9284BD23641A2900C23F4F /* Router */,
+				9AF6263D2411A11000D1830C /* History.storyboard */,
 			);
 			path = History;
 			sourceTree = "<group>";
@@ -723,6 +733,7 @@
 				9A9284C723641A2900C23F4F /* View */,
 				9A9284CE23641A2900C23F4F /* Interactor */,
 				9A9284D223641A2900C23F4F /* Router */,
+				9A21E649241299E3004E8A78 /* Ticket.storyboard */,
 			);
 			path = Ticket;
 			sourceTree = "<group>";
@@ -830,6 +841,7 @@
 		AC031790E4F50B5D90B7672E /* Block */ = {
 			isa = PBXGroup;
 			children = (
+				9A7A473724129C6A0038241B /* Block.storyboard */,
 				AC031531C06CBD30EAF30FB4 /* View */,
 				AC03123582DA62BA102014E8 /* Router */,
 				AC03114CD6C2518A1BF3A127 /* Assembly */,
@@ -925,6 +937,7 @@
 		62AE9BB527AC9DB11F6EA038 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastUpgradeCheck = 1110;
 				ORGANIZATIONNAME = DigitalCustoms;
 				TargetAttributes = {
 					62AE9811E53B2F83E51AA3D7 = {
@@ -957,6 +970,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A7A473824129C6A0038241B /* Block.storyboard in Resources */,
 				9A92850623641A2900C23F4F /* Colors.xcassets in Resources */,
 				9A92850823641A2900C23F4F /* Localizable.strings in Resources */,
 				9A92850723641A2900C23F4F /* Images.xcassets in Resources */,
@@ -966,7 +980,10 @@
 				AC03172813A9BE94BF0BDC18 /* LaunchScreen.storyboard in Resources */,
 				AC031BF27ACF1BBE097B739C /* CUIXLoading.strings in Resources */,
 				AC031B9654D2CB2C40A50277 /* CUIXLoading.strings in Resources */,
+				9AF6263C2411A03C00D1830C /* Scan.storyboard in Resources */,
+				9A21E64A241299E3004E8A78 /* Ticket.storyboard in Resources */,
 				AC0313C108F35CBD3E0C8C53 /* CUIXLoading.xib in Resources */,
+				9AF6263E2411A11000D1830C /* History.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1218,6 +1235,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -1288,6 +1306,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";

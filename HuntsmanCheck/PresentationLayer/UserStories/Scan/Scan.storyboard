@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="JLj-rY-FFT">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Сканировать-->
+        <scene sceneID="wIV-m5-UfC">
+            <objects>
+                <viewController id="gyh-eF-35r" customClass="ScanViewController" customModule="HuntsmanCheck" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Y2i-6V-qws">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9KW-bo-HdJ">
+                                <rect key="frame" x="57" y="298" width="300" height="300"/>
+                                <color key="backgroundColor" red="0.89276948170000003" green="0.92950904190000005" blue="0.92370383919999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="300" id="TK9-eJ-NVv"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="300" id="cxJ-ho-rOQ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
+                                <state key="normal" title="СКАНИРОВАТЬ">
+                                    <color key="titleColor" name="main"/>
+                                    <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="didSelectScanButton:" destination="gyh-eF-35r" eventType="touchUpInside" id="dwl-XN-UVm"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="9KW-bo-HdJ" firstAttribute="centerY" secondItem="Y2i-6V-qws" secondAttribute="centerY" id="0ZF-cJ-Vj0"/>
+                            <constraint firstItem="9KW-bo-HdJ" firstAttribute="centerX" secondItem="Y2i-6V-qws" secondAttribute="centerX" id="bb8-Fv-dr0"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="DAO-sP-y1r"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Сканировать" id="F0q-R9-bwn"/>
+                    <connections>
+                        <outlet property="scanButton" destination="9KW-bo-HdJ" id="QzN-Hz-iQE"/>
+                        <segue destination="nU6-sP-HtA" kind="show" identifier="showTicketInfo" id="iyE-l9-99f"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="H6T-FL-Jgb" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1659.4202898550725" y="-320.08928571428572"/>
+        </scene>
+        <!--Storyboard Reference-->
+        <scene sceneID="ghr-W8-cl2">
+            <objects>
+                <viewControllerPlaceholder id="nU6-sP-HtA" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="X1N-di-QsY"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CJc-zZ-acJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2311" y="-320"/>
+        </scene>
+        <!--Сканировать-->
+        <scene sceneID="Cif-GN-b1H">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="JLj-rY-FFT" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Сканировать" image="qrLeft" id="xIM-is-9pZ"/>
+                    <toolbarItems/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="fB5-2G-aKy">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="gyh-eF-35r" kind="relationship" relationship="rootViewController" id="gFf-qf-QeA"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="seX-4L-3zg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="749.27536231884062" y="-320.08928571428572"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="qrLeft" width="24" height="24"/>
+        <namedColor name="main">
+            <color red="0.34799998998641968" green="0.8059999942779541" blue="0.37099999189376831" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

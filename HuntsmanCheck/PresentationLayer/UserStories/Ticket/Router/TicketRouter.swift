@@ -21,7 +21,7 @@ class TicketRouter: TicketRouterInput {
     }
 
     func showBlockModule(with ticket: LMTicket, moduleOutput: BlockModuleOutput) {
-        transitionHandler.openModule?(usingSegue: StoryboardSegue.Main.showBlackListSegue.rawValue)?
+        transitionHandler.openModule?(usingSegue: StoryboardSegue.Ticket.showBlackListSegue.rawValue)?
                 .thenChain { moduleInput -> RamblerViperModuleOutput? in
 
                     (moduleInput as? BlockModuleInput)?.setTicket(ticket)

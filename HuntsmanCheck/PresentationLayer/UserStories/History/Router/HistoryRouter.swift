@@ -21,7 +21,7 @@ class HistoryRouter: HistoryRouterInput {
     }
 
     func showTicketInfoModule(with ticket: LMTicket, moduleOutput: TicketModuleOutput) {
-        transitionHandler.openModule?(usingSegue: StoryboardSegue.Main.showTicketInfo.rawValue)?
+        transitionHandler.openModule?(usingSegue: StoryboardSegue.History.showTicketInfo.rawValue)?
                 .thenChain { moduleInput -> RamblerViperModuleOutput? in
 
                     (moduleInput as? TicketModuleInput)?.setTicket(ticket)
