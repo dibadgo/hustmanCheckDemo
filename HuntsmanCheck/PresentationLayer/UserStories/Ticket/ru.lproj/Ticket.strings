@@ -1,0 +1,51 @@
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "4jL-Kb-7rt"; */
+"4jL-Kb-7rt.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "88c-3k-EVa"; */
+"88c-3k-EVa.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "HKa-hx-pFM"; */
+"HKa-hx-pFM.text" = "Label";
+
+/* Class = "UITableViewSection"; headerTitle = "Основная информация"; ObjectID = "J3V-MB-KLV"; */
+"J3V-MB-KLV.headerTitle" = "Основная информация";
+
+/* Class = "UINavigationItem"; title = "Информация"; ObjectID = "Pqm-nH-Jqx"; */
+"Pqm-nH-Jqx.title" = "Информация";
+
+/* Class = "UILabel"; text = "Дата рождения"; ObjectID = "SYe-ed-B6s"; */
+"SYe-ed-B6s.text" = "Дата рождения";
+
+/* Class = "UILabel"; text = "Серия-номер"; ObjectID = "UeP-4e-ZOW"; */
+"UeP-4e-ZOW.text" = "Серия-номер";
+
+/* Class = "UILabel"; text = "Действует по"; ObjectID = "Ux8-Gv-XNg"; */
+"Ux8-Gv-XNg.text" = "Действует по";
+
+/* Class = "UILabel"; text = "ЧС:"; ObjectID = "VMi-JP-KP8"; */
+"VMi-JP-KP8.text" = "ЧС:";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Y2K-fT-HXk"; */
+"Y2K-fT-HXk.text" = "Label";
+
+/* Class = "UIBarButtonItem"; title = "Сохранить"; ObjectID = "ZDW-JT-4Xz"; */
+"ZDW-JT-4Xz.title" = "Сохранить";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "cXD-E6-Jp2"; */
+"cXD-E6-Jp2.text" = "Label";
+
+/* Class = "UILabel"; text = "Имя"; ObjectID = "fXY-3w-5Zb"; */
+"fXY-3w-5Zb.text" = "Имя";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "fha-oP-4Jd"; */
+"fha-oP-4Jd.text" = "Label";
+
+/* Class = "UILabel"; text = "Заблокировать"; ObjectID = "g9O-xc-B00"; */
+"g9O-xc-B00.text" = "Заблокировать";
+
+/* Class = "UILabel"; text = "Дйствует с"; ObjectID = "pIo-kf-TJk"; */
+"pIo-kf-TJk.text" = "Дйствует с";
+
+/* Class = "UIBarButtonItem"; title = "Назад"; ObjectID = "qer-8F-Z72"; */
+"qer-8F-Z72.title" = "Назад";

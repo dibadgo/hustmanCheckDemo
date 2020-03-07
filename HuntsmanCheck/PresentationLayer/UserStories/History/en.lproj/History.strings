@@ -1,0 +1,15 @@
+
+/* Class = "UITabBarItem"; title = "История"; ObjectID = "3o4-Yi-pIJ"; */
+"3o4-Yi-pIJ.title" = "History";
+
+/* Class = "UILabel"; text = "Дата входа:"; ObjectID = "CAj-dF-3ut"; */
+"CAj-dF-3ut.text" = "Exit timestamp:";
+
+/* Class = "UILabel"; text = "AФИО"; ObjectID = "Lbv-ka-iaD"; */
+"Lbv-ka-iaD.text" = "FIO";
+
+/* Class = "UINavigationItem"; title = "История"; ObjectID = "reL-WO-ImD"; */
+"reL-WO-ImD.title" = "History";
+
+/* Class = "UILabel"; text = "24.04.2066"; ObjectID = "taI-2l-Q7N"; */
+"taI-2l-Q7N.text" = "24.04.2066";

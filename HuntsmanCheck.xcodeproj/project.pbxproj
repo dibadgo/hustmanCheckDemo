@@ -8,8 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		95B905FF5AA974887856C89A /* Pods_HuntsmanCheck.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F9BE4825C8F3EEE8E3E5A70 /* Pods_HuntsmanCheck.framework */; };
-		9A21E64A241299E3004E8A78 /* Ticket.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A21E649241299E3004E8A78 /* Ticket.storyboard */; };
-		9A7A473824129C6A0038241B /* Block.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A7A473724129C6A0038241B /* Block.storyboard */; };
+		9A0F67482413B5CA007C146A /* Scan.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A0F674A2413B5CA007C146A /* Scan.storyboard */; };
+		9A0F674F2413B606007C146A /* History.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A0F67512413B606007C146A /* History.storyboard */; };
+		9A0F67562413B7D9007C146A /* Ticket.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A0F67582413B7D9007C146A /* Ticket.storyboard */; };
+		9A0F675D2413B848007C146A /* Block.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A0F675F2413B848007C146A /* Block.storyboard */; };
+		9A0F67642413B888007C146A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A0F67662413B888007C146A /* Main.storyboard */; };
 		9A9284EC23641A2900C23F4F /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A92843023641A2900C23F4F /* CoreDataManager.swift */; };
 		9A9284ED23641A2900C23F4F /* CoreDataProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A92843123641A2900C23F4F /* CoreDataProtocol.swift */; };
 		9A9284EE23641A2900C23F4F /* HuntsmanDB.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9A92843323641A2900C23F4F /* HuntsmanDB.xcdatamodeld */; };
@@ -99,8 +102,6 @@
 		9A92855223641A2A00C23F4F /* TicketRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9284D323641A2900C23F4F /* TicketRouterInput.swift */; };
 		9A92855323641A2A00C23F4F /* TicketRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9284D423641A2900C23F4F /* TicketRouter.swift */; };
 		9A92855423641A2A00C23F4F /* PresentationFramework.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9284D623641A2900C23F4F /* PresentationFramework.swift */; };
-		9AF6263C2411A03C00D1830C /* Scan.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AF6263B2411A03C00D1830C /* Scan.storyboard */; };
-		9AF6263E2411A11000D1830C /* History.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AF6263D2411A11000D1830C /* History.storyboard */; };
 		AC031260B1AF1320329E5159 /* BlockModuleOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC031DCF37717E07F4AD4573 /* BlockModuleOutput.swift */; };
 		AC03126FCF8C486912921F8E /* BlockInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC03175C7AEDA82AFA7A905A /* BlockInteractor.swift */; };
 		AC031338E08FB49AE209D58D /* Main.strings in Resources */ = {isa = PBXBuildFile; fileRef = AC031C6671BF227817B9BEF2 /* Main.strings */; };
@@ -116,7 +117,6 @@
 		AC031B9654D2CB2C40A50277 /* CUIXLoading.strings in Resources */ = {isa = PBXBuildFile; fileRef = AC0311E9F4E1AD94847D762C /* CUIXLoading.strings */; };
 		AC031BF27ACF1BBE097B739C /* CUIXLoading.strings in Resources */ = {isa = PBXBuildFile; fileRef = AC031DA9FE423457BF118990 /* CUIXLoading.strings */; };
 		AC031C4E554D0C0779384A03 /* CUIXLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0311CCF44FC19649425A03 /* CUIXLoading.swift */; };
-		AC031D855766B09D6F6B1646 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC031F1D67B948E935536241 /* Main.storyboard */; };
 		AC031D94A957F5BB3D50B850 /* BlockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0315CD36EF7BE862035017 /* BlockViewController.swift */; };
 		AC031EC96EC6F83EFE539017 /* BlockRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC031F592EE5CE1437CCE5B3 /* BlockRouter.swift */; };
 		AC031EF99EAA7C2F19A8540B /* BlockInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC031F61DD4E64A9D495A7D6 /* BlockInteractorInput.swift */; };
@@ -127,8 +127,22 @@
 		62AE9C89630BEA033763D793 /* HuntsmanCheck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HuntsmanCheck.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F9BE4825C8F3EEE8E3E5A70 /* Pods_HuntsmanCheck.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HuntsmanCheck.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		92F116DF5CFF8452CB5C3AFE /* Pods-HuntsmanCheck.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HuntsmanCheck.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HuntsmanCheck/Pods-HuntsmanCheck.debug.xcconfig"; sourceTree = "<group>"; };
-		9A21E649241299E3004E8A78 /* Ticket.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Ticket.storyboard; sourceTree = "<group>"; };
-		9A7A473724129C6A0038241B /* Block.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Block.storyboard; sourceTree = "<group>"; };
+		9A0F67472413B5A3007C146A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		9A0F674C2413B5D2007C146A /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Scan.strings; sourceTree = "<group>"; };
+		9A0F674D2413B5E6007C146A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Scan.storyboard; sourceTree = "<group>"; };
+		9A0F674E2413B5F8007C146A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Scan.strings; sourceTree = "<group>"; };
+		9A0F67502413B606007C146A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/History.storyboard; sourceTree = "<group>"; };
+		9A0F67532413B60E007C146A /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/History.strings; sourceTree = "<group>"; };
+		9A0F67552413B611007C146A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/History.strings; sourceTree = "<group>"; };
+		9A0F67572413B7D9007C146A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Ticket.storyboard; sourceTree = "<group>"; };
+		9A0F675A2413B7E1007C146A /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Ticket.strings; sourceTree = "<group>"; };
+		9A0F675C2413B7E3007C146A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Ticket.strings; sourceTree = "<group>"; };
+		9A0F675E2413B848007C146A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Block.storyboard; sourceTree = "<group>"; };
+		9A0F67612413B84E007C146A /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Block.strings; sourceTree = "<group>"; };
+		9A0F67632413B854007C146A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Block.strings; sourceTree = "<group>"; };
+		9A0F67652413B888007C146A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9A0F67682413B88E007C146A /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
+		9A0F676A2413B88F007C146A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 		9A92843023641A2900C23F4F /* CoreDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 		9A92843123641A2900C23F4F /* CoreDataProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataProtocol.swift; sourceTree = "<group>"; };
 		9A92843423641A2900C23F4F /* HuntsmanDB.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HuntsmanDB.xcdatamodel; sourceTree = "<group>"; };
@@ -219,8 +233,6 @@
 		9A9284D323641A2900C23F4F /* TicketRouterInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TicketRouterInput.swift; sourceTree = "<group>"; };
 		9A9284D423641A2900C23F4F /* TicketRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TicketRouter.swift; sourceTree = "<group>"; };
 		9A9284D623641A2900C23F4F /* PresentationFramework.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentationFramework.swift; sourceTree = "<group>"; };
-		9AF6263B2411A03C00D1830C /* Scan.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Scan.storyboard; sourceTree = "<group>"; };
-		9AF6263D2411A11000D1830C /* History.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = History.storyboard; sourceTree = "<group>"; };
 		AC03115AC540D3AD084C6FF1 /* BlockViewInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockViewInput.swift; sourceTree = "<group>"; };
 		AC0311CCF44FC19649425A03 /* CUIXLoading.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CUIXLoading.swift; sourceTree = "<group>"; };
 		AC03158FB801CCFFD82B323E /* BlockAssembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockAssembly.swift; sourceTree = "<group>"; };
@@ -236,7 +248,6 @@
 		AC031CF5007F62C839916F95 /* BlockModuleInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockModuleInput.swift; sourceTree = "<group>"; };
 		AC031D9A97EA496493EBC4CD /* BlockRouterInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockRouterInput.swift; sourceTree = "<group>"; };
 		AC031DCF37717E07F4AD4573 /* BlockModuleOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockModuleOutput.swift; sourceTree = "<group>"; };
-		AC031F1D67B948E935536241 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		AC031F25A477252E98249D10 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC031F592EE5CE1437CCE5B3 /* BlockRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockRouter.swift; sourceTree = "<group>"; };
 		AC031F5FCAE9F52851011491 /* en */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = en; path = CUIXLoading.strings; sourceTree = "<group>"; };
@@ -612,7 +623,7 @@
 				9A92849C23641A2900C23F4F /* View */,
 				9A9284A323641A2900C23F4F /* Interactor */,
 				9A9284A723641A2900C23F4F /* Router */,
-				9AF6263B2411A03C00D1830C /* Scan.storyboard */,
+				9A0F674A2413B5CA007C146A /* Scan.storyboard */,
 			);
 			path = Scan;
 			sourceTree = "<group>";
@@ -672,7 +683,7 @@
 				9A9284B123641A2900C23F4F /* View */,
 				9A9284B923641A2900C23F4F /* Interactor */,
 				9A9284BD23641A2900C23F4F /* Router */,
-				9AF6263D2411A11000D1830C /* History.storyboard */,
+				9A0F67512413B606007C146A /* History.storyboard */,
 			);
 			path = History;
 			sourceTree = "<group>";
@@ -733,7 +744,7 @@
 				9A9284C723641A2900C23F4F /* View */,
 				9A9284CE23641A2900C23F4F /* Interactor */,
 				9A9284D223641A2900C23F4F /* Router */,
-				9A21E649241299E3004E8A78 /* Ticket.storyboard */,
+				9A0F67582413B7D9007C146A /* Ticket.storyboard */,
 			);
 			path = Ticket;
 			sourceTree = "<group>";
@@ -841,7 +852,7 @@
 		AC031790E4F50B5D90B7672E /* Block */ = {
 			isa = PBXGroup;
 			children = (
-				9A7A473724129C6A0038241B /* Block.storyboard */,
+				9A0F675F2413B848007C146A /* Block.storyboard */,
 				AC031531C06CBD30EAF30FB4 /* View */,
 				AC03123582DA62BA102014E8 /* Router */,
 				AC03114CD6C2518A1BF3A127 /* Assembly */,
@@ -873,7 +884,7 @@
 			isa = PBXGroup;
 			children = (
 				AC031C6671BF227817B9BEF2 /* Main.strings */,
-				AC031F1D67B948E935536241 /* Main.storyboard */,
+				9A0F67662413B888007C146A /* Main.storyboard */,
 				AC0319B4C9298D26FAFF9390 /* LaunchScreen.strings */,
 				AC031F25A477252E98249D10 /* LaunchScreen.storyboard */,
 			);
@@ -970,20 +981,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A7A473824129C6A0038241B /* Block.storyboard in Resources */,
+				9A0F675D2413B848007C146A /* Block.storyboard in Resources */,
 				9A92850623641A2900C23F4F /* Colors.xcassets in Resources */,
 				9A92850823641A2900C23F4F /* Localizable.strings in Resources */,
 				9A92850723641A2900C23F4F /* Images.xcassets in Resources */,
 				AC031338E08FB49AE209D58D /* Main.strings in Resources */,
-				AC031D855766B09D6F6B1646 /* Main.storyboard in Resources */,
+				9A0F67642413B888007C146A /* Main.storyboard in Resources */,
 				AC031FBBC3F9C29A9A10D613 /* LaunchScreen.strings in Resources */,
 				AC03172813A9BE94BF0BDC18 /* LaunchScreen.storyboard in Resources */,
 				AC031BF27ACF1BBE097B739C /* CUIXLoading.strings in Resources */,
 				AC031B9654D2CB2C40A50277 /* CUIXLoading.strings in Resources */,
-				9AF6263C2411A03C00D1830C /* Scan.storyboard in Resources */,
-				9A21E64A241299E3004E8A78 /* Ticket.storyboard in Resources */,
+				9A0F67482413B5CA007C146A /* Scan.storyboard in Resources */,
+				9A0F67562413B7D9007C146A /* Ticket.storyboard in Resources */,
 				AC0313C108F35CBD3E0C8C53 /* CUIXLoading.xib in Resources */,
-				9AF6263E2411A11000D1830C /* History.storyboard in Resources */,
+				9A0F674F2413B606007C146A /* History.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1180,10 +1191,61 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		9A0F674A2413B5CA007C146A /* Scan.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A0F674C2413B5D2007C146A /* ru */,
+				9A0F674D2413B5E6007C146A /* Base */,
+				9A0F674E2413B5F8007C146A /* en */,
+			);
+			name = Scan.storyboard;
+			sourceTree = "<group>";
+		};
+		9A0F67512413B606007C146A /* History.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A0F67502413B606007C146A /* Base */,
+				9A0F67532413B60E007C146A /* ru */,
+				9A0F67552413B611007C146A /* en */,
+			);
+			name = History.storyboard;
+			sourceTree = "<group>";
+		};
+		9A0F67582413B7D9007C146A /* Ticket.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A0F67572413B7D9007C146A /* Base */,
+				9A0F675A2413B7E1007C146A /* ru */,
+				9A0F675C2413B7E3007C146A /* en */,
+			);
+			name = Ticket.storyboard;
+			sourceTree = "<group>";
+		};
+		9A0F675F2413B848007C146A /* Block.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A0F675E2413B848007C146A /* Base */,
+				9A0F67612413B84E007C146A /* ru */,
+				9A0F67632413B854007C146A /* en */,
+			);
+			name = Block.storyboard;
+			sourceTree = "<group>";
+		};
+		9A0F67662413B888007C146A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A0F67652413B888007C146A /* Base */,
+				9A0F67682413B88E007C146A /* ru */,
+				9A0F676A2413B88F007C146A /* en */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
 		9A92845E23641A2900C23F4F /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				9A92845F23641A2900C23F4F /* ru */,
+				9A0F67472413B5A3007C146A /* en */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";

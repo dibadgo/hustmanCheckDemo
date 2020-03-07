@@ -51,10 +51,10 @@
             </objects>
             <point key="canvasLocation" x="1659.4202898550725" y="-320.08928571428572"/>
         </scene>
-        <!--Storyboard Reference-->
+        <!--Ticket-->
         <scene sceneID="ghr-W8-cl2">
             <objects>
-                <viewControllerPlaceholder id="nU6-sP-HtA" sceneMemberID="viewController">
+                <viewControllerPlaceholder storyboardName="Ticket" id="nU6-sP-HtA" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="X1N-di-QsY"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CJc-zZ-acJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

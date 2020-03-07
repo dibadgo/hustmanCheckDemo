@@ -88,10 +88,10 @@ extension TicketViewController: TicketViewInput {
         self.nameLabel.text = ticket.fio
 
         if ticket.isBackMark {
-            self.blackList.text = "Да"
+            self.blackList.text = L10n.BlackListMark.yes
             self.blackList.textColor = .red
         } else {
-            self.blackList.text = "Нет"
+            self.blackList.text = L10n.BlackListMark.no
         }
 
 

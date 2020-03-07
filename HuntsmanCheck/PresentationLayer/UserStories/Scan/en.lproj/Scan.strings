@@ -1,0 +1,9 @@
+
+/* Class = "UIButton"; normalTitle = "СКАНИРОВАТЬ"; ObjectID = "9KW-bo-HdJ"; */
+"9KW-bo-HdJ.normalTitle" = "SCAN";
+
+/* Class = "UINavigationItem"; title = "Сканировать"; ObjectID = "F0q-R9-bwn"; */
+"F0q-R9-bwn.title" = "Scan";
+
+/* Class = "UITabBarItem"; title = "Сканировать"; ObjectID = "xIM-is-9pZ"; */
+"xIM-is-9pZ.title" = "Scan";

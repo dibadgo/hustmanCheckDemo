@@ -24,3 +24,6 @@
 
 "Tickets.userHasBlackMarkMessage" = "Посетитель находится в черном списке. Проход запрещен";
 "Tickets.userAlreadyInvitedMessage" = "Зафиксировано повторное посещение.";
+
+"BlackListMark.yes" = "Да";
+"BlackListMark.no" = "Нет";
