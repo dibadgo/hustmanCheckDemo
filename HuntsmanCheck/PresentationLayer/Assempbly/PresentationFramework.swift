@@ -22,5 +22,9 @@ class PresentationFramework: DIFramework {
 
         //Storyboards
         container.registerStoryboard(name: StoryboardScene.Main.storyboardName)
+        container.registerStoryboard(name: StoryboardScene.Ticket.storyboardName)
+        container.registerStoryboard(name: StoryboardScene.Block.storyboardName)
+        container.registerStoryboard(name: StoryboardScene.Scan.storyboardName)
+        container.registerStoryboard(name: StoryboardScene.History.storyboardName)
     }
 }

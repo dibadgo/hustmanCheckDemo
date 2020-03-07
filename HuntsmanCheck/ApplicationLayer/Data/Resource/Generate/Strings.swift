@@ -12,6 +12,13 @@ import Foundation
 // swiftlint:disable nesting type_body_length type_name
 internal enum L10n {
 
+  internal enum BlackListMark {
+    /// Нет
+    internal static let no = L10n.tr("Localizable", "BlackListMark.no")
+    /// Да
+    internal static let yes = L10n.tr("Localizable", "BlackListMark.yes")
+  }
+
   internal enum History {
     /// Вызгрузка данных произведена успешно
     internal static let successfullyUpload = L10n.tr("Localizable", "History.successfullyUpload")

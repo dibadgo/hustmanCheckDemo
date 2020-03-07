@@ -1,0 +1,29 @@
+/* 
+  Localizable.strings
+  HuntsmanCheck
+
+  Created by Арабаджиян Артем on 28/09/2019.
+  Copyright © 2019 DigitalCustoms. All rights reserved.
+*/
+
+"alert.tryNew" = "Retry";
+"alert.exitBotton" = "Cancel";
+"alert.errorTitile" = "Error";
+"alert.okButton" = "Ok";
+
+"errors.modelMapError"= "Error during mapping response from the server";
+"errors.grantError" = "Authorization error";
+"errors.serverError"= "Internal server error";
+"errors.undefError"= "Undfinded error";
+"errors.stayButton"= "Continue";
+"errors.exitButton"= "Exit";
+
+"Scan.cannotDecodeMessage" = "Cannot recognaze QR code";
+
+"History.successfullyUpload" = "Dates uploaded successfully";
+
+"Tickets.userHasBlackMarkMessage" = "User in the black list";
+"Tickets.userAlreadyInvitedMessage" = "Repeated visit";
+
+"BlackListMark.yes" = "Yes";
+"BlackListMark.no" = "No";

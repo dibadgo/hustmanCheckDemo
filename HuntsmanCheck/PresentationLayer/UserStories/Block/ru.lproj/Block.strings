@@ -1,0 +1,12 @@
+
+/* Class = "UILabel"; text = "Введие обоснование для блокировки:"; ObjectID = "JDS-dT-YGg"; */
+"JDS-dT-YGg.text" = "Введие обоснование для блокировки:";
+
+/* Class = "UILabel"; text = "ФИО посетителя:"; ObjectID = "Ljz-9b-RaS"; */
+"Ljz-9b-RaS.text" = "ФИО посетителя:";
+
+/* Class = "UINavigationItem"; title = "Заблокировать"; ObjectID = "ZWX-2w-mTn"; */
+"ZWX-2w-mTn.title" = "Заблокировать";
+
+/* Class = "UILabel"; text = "ФИО"; ObjectID = "eof-Qu-5zE"; */
+"eof-Qu-5zE.text" = "ФИО";

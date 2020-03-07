@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="XeW-UD-Xnh">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--История-->
+        <scene sceneID="Qdc-GL-u9i">
+            <objects>
+                <viewController id="ahp-S2-9L6" customClass="HistoryViewController" customModule="HuntsmanCheck" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Xrb-eT-HNx">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="wm0-64-XFc">
+                                <rect key="frame" x="0.0" y="88" width="414" height="725"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="HistoryTicketCell" rowHeight="78" id="3ax-4k-AoW" customClass="HistoryTicketCell" customModule="HuntsmanCheck" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="55.5" width="414" height="78"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="3ax-4k-AoW" id="m48-Lx-6pG" customClass="Я">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="78"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="AФИО" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lbv-ka-iaD">
+                                                    <rect key="frame" x="20" y="18.5" width="51" height="20.5"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Дата входа:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CAj-dF-3ut">
+                                                    <rect key="frame" x="20" y="41" width="79.5" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="24.04.2066" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="taI-2l-Q7N">
+                                                    <rect key="frame" x="123.5" y="43" width="75.5" height="17"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="taI-2l-Q7N" firstAttribute="leading" secondItem="CAj-dF-3ut" secondAttribute="trailing" constant="24" id="9Vh-ko-XhV"/>
+                                                <constraint firstItem="taI-2l-Q7N" firstAttribute="centerY" secondItem="CAj-dF-3ut" secondAttribute="centerY" id="9z8-pi-T81"/>
+                                                <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="taI-2l-Q7N" secondAttribute="trailing" constant="24" id="CYu-Fu-41G"/>
+                                                <constraint firstItem="Lbv-ka-iaD" firstAttribute="top" secondItem="m48-Lx-6pG" secondAttribute="topMargin" constant="7.5" id="HOZ-Qf-Pwo"/>
+                                                <constraint firstItem="CAj-dF-3ut" firstAttribute="leading" secondItem="Lbv-ka-iaD" secondAttribute="leading" id="KmS-Ii-Hsx"/>
+                                                <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="Lbv-ka-iaD" secondAttribute="trailing" constant="24" id="UoJ-s4-hZc"/>
+                                                <constraint firstItem="CAj-dF-3ut" firstAttribute="top" secondItem="Lbv-ka-iaD" secondAttribute="bottom" constant="2" id="WD7-hs-bJY"/>
+                                                <constraint firstItem="Lbv-ka-iaD" firstAttribute="leading" secondItem="m48-Lx-6pG" secondAttribute="leadingMargin" id="WEl-cV-yNr"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="CAj-dF-3ut" secondAttribute="bottom" constant="5" id="o17-Kd-ba2"/>
+                                                <constraint firstItem="taI-2l-Q7N" firstAttribute="top" secondItem="m48-Lx-6pG" secondAttribute="topMargin" constant="32" id="xMG-tu-8rQ"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="nameLabel" destination="Lbv-ka-iaD" id="dm0-nz-PXs"/>
+                                            <outlet property="startDateLable" destination="taI-2l-Q7N" id="ykW-7p-gg4"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                            <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="96m-cS-KVR" customClass="CUIXLoading" customModule="HuntsmanCheck" customModuleProvider="target">
+                                <rect key="frame" x="107" y="398" width="200" height="100"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="0rP-Wn-6Ch"/>
+                                    <constraint firstAttribute="height" constant="100" id="e61-Gu-QMp"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="96m-cS-KVR" firstAttribute="centerX" secondItem="Xrb-eT-HNx" secondAttribute="centerX" id="6Ln-oe-fiP"/>
+                            <constraint firstItem="cA4-Gr-9Ch" firstAttribute="trailing" secondItem="wm0-64-XFc" secondAttribute="trailing" id="6la-hN-UPC"/>
+                            <constraint firstItem="wm0-64-XFc" firstAttribute="leading" secondItem="cA4-Gr-9Ch" secondAttribute="leading" id="6rR-Zt-cdz"/>
+                            <constraint firstItem="96m-cS-KVR" firstAttribute="centerY" secondItem="Xrb-eT-HNx" secondAttribute="centerY" id="G9t-8R-WYA"/>
+                            <constraint firstItem="cA4-Gr-9Ch" firstAttribute="bottom" secondItem="wm0-64-XFc" secondAttribute="bottom" id="YXF-2e-six"/>
+                            <constraint firstItem="wm0-64-XFc" firstAttribute="top" secondItem="cA4-Gr-9Ch" secondAttribute="top" id="sKr-q2-r2r"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="cA4-Gr-9Ch"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="История" id="reL-WO-ImD">
+                        <barButtonItem key="rightBarButtonItem" systemItem="reply" id="cZF-Ew-H9C">
+                            <connections>
+                                <action selector="uploadButton:" destination="ahp-S2-9L6" id="4RZ-ZY-8mM"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="historyTableView" destination="wm0-64-XFc" id="3dn-LR-w0c"/>
+                        <outlet property="lodingView" destination="96m-cS-KVR" id="HPQ-wd-tcz"/>
+                        <segue destination="VSo-sz-lHW" kind="show" identifier="showTicketInfo" id="8kb-PU-AHm"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dZ9-iH-yPN" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1687.2" y="474.51274362818594"/>
+        </scene>
+        <!--Storyboard Reference-->
+        <scene sceneID="bdE-IU-DZ7">
+            <objects>
+                <viewControllerPlaceholder id="VSo-sz-lHW" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="VFJ-C9-GcA"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xPt-BE-3Ec" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2511" y="323"/>
+        </scene>
+        <!--История-->
+        <scene sceneID="K7u-Yg-S1D">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="XeW-UD-Xnh" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="История" image="moreleft" id="3o4-Yi-pIJ"/>
+                    <toolbarItems/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="aLJ-nW-wKH">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="ahp-S2-9L6" kind="relationship" relationship="rootViewController" id="NFA-ke-eTd"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OdC-tW-GqA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="748" y="474.51274362818594"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="moreleft" width="24" height="24"/>
+    </resources>
+</document>
