@@ -6,6 +6,8 @@
 //  Copyright © 2019 dibado. All rights reserved.
 //
 
+import TableDirector
+
 protocol HistoryViewInput: class {
 
     /**
