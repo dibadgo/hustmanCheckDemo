@@ -18,4 +18,5 @@ target ‘HuntsmanCheck’ do
 
    # UI ------------
    pod 'ZBarSDK', '~> 1.3.1'
+   pod 'TableDirector', :git => 'https://github.com/dibadgo/TableDirector'
 end

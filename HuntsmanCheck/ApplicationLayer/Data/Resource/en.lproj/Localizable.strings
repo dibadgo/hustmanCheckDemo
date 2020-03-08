@@ -21,6 +21,8 @@
 "Scan.cannotDecodeMessage" = "Cannot recognaze QR code";
 
 "History.successfullyUpload" = "Dates uploaded successfully";
+"History.uploading" = "Uploading...";
+"History.okButton" = "Done";
 
 "Tickets.userHasBlackMarkMessage" = "User in the black list";
 "Tickets.userAlreadyInvitedMessage" = "Repeated visit";

@@ -53,13 +53,6 @@
 		9A92851223641A2900C23F4F /* DatePatterns.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A92846D23641A2900C23F4F /* DatePatterns.swift */; };
 		9A92851323641A2900C23F4F /* MD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A92846E23641A2900C23F4F /* MD5.swift */; };
 		9A92851823641A2900C23F4F /* MainViewConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A92847A23641A2900C23F4F /* MainViewConfigurator.swift */; };
-		9A92851923641A2900C23F4F /* TableRowBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A92847D23641A2900C23F4F /* TableRowBuilder.swift */; };
-		9A92851A23641A2900C23F4F /* TableRowSwipeBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A92847E23641A2900C23F4F /* TableRowSwipeBuilder.swift */; };
-		9A92851B23641A2900C23F4F /* CellBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A92847F23641A2900C23F4F /* CellBuilder.swift */; };
-		9A92851C23641A2900C23F4F /* TableRowAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A92848123641A2900C23F4F /* TableRowAction.swift */; };
-		9A92851D23641A2900C23F4F /* ConfigurableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A92848223641A2900C23F4F /* ConfigurableCell.swift */; };
-		9A92851E23641A2900C23F4F /* TableViewDirector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A92848423641A2900C23F4F /* TableViewDirector.swift */; };
-		9A92851F23641A2900C23F4F /* TableSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A92848523641A2900C23F4F /* TableSection.swift */; };
 		9A92852423641A2900C23F4F /* UIAssistent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A92848C23641A2900C23F4F /* UIAssistent.swift */; };
 		9A92852523641A2900C23F4F /* BaseInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A92848E23641A2900C23F4F /* BaseInteractor.swift */; };
 		9A92852623641A2900C23F4F /* BaseUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A92848F23641A2900C23F4F /* BaseUIViewController.swift */; };
@@ -184,13 +177,6 @@
 		9A92846E23641A2900C23F4F /* MD5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MD5.swift; sourceTree = "<group>"; };
 		9A92846F23641A2900C23F4F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9A92847A23641A2900C23F4F /* MainViewConfigurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewConfigurator.swift; sourceTree = "<group>"; };
-		9A92847D23641A2900C23F4F /* TableRowBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableRowBuilder.swift; sourceTree = "<group>"; };
-		9A92847E23641A2900C23F4F /* TableRowSwipeBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableRowSwipeBuilder.swift; sourceTree = "<group>"; };
-		9A92847F23641A2900C23F4F /* CellBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellBuilder.swift; sourceTree = "<group>"; };
-		9A92848123641A2900C23F4F /* TableRowAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableRowAction.swift; sourceTree = "<group>"; };
-		9A92848223641A2900C23F4F /* ConfigurableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigurableCell.swift; sourceTree = "<group>"; };
-		9A92848423641A2900C23F4F /* TableViewDirector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewDirector.swift; sourceTree = "<group>"; };
-		9A92848523641A2900C23F4F /* TableSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableSection.swift; sourceTree = "<group>"; };
 		9A92848C23641A2900C23F4F /* UIAssistent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIAssistent.swift; sourceTree = "<group>"; };
 		9A92848E23641A2900C23F4F /* BaseInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseInteractor.swift; sourceTree = "<group>"; };
 		9A92848F23641A2900C23F4F /* BaseUIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseUIViewController.swift; sourceTree = "<group>"; };
@@ -532,7 +518,6 @@
 			isa = PBXGroup;
 			children = (
 				9A92847923641A2900C23F4F /* Configurators */,
-				9A92847B23641A2900C23F4F /* TableViewDirector */,
 				AC031E0E9CBAB8F8779A20EB /* LoadingView */,
 			);
 			path = UICommon;
@@ -544,44 +529,6 @@
 				9A92847A23641A2900C23F4F /* MainViewConfigurator.swift */,
 			);
 			path = Configurators;
-			sourceTree = "<group>";
-		};
-		9A92847B23641A2900C23F4F /* TableViewDirector */ = {
-			isa = PBXGroup;
-			children = (
-				9A92847C23641A2900C23F4F /* Builders */,
-				9A92847F23641A2900C23F4F /* CellBuilder.swift */,
-				9A92848023641A2900C23F4F /* Actions */,
-				9A92848223641A2900C23F4F /* ConfigurableCell.swift */,
-				9A92848323641A2900C23F4F /* Directors */,
-			);
-			path = TableViewDirector;
-			sourceTree = "<group>";
-		};
-		9A92847C23641A2900C23F4F /* Builders */ = {
-			isa = PBXGroup;
-			children = (
-				9A92847D23641A2900C23F4F /* TableRowBuilder.swift */,
-				9A92847E23641A2900C23F4F /* TableRowSwipeBuilder.swift */,
-			);
-			path = Builders;
-			sourceTree = "<group>";
-		};
-		9A92848023641A2900C23F4F /* Actions */ = {
-			isa = PBXGroup;
-			children = (
-				9A92848123641A2900C23F4F /* TableRowAction.swift */,
-			);
-			path = Actions;
-			sourceTree = "<group>";
-		};
-		9A92848323641A2900C23F4F /* Directors */ = {
-			isa = PBXGroup;
-			children = (
-				9A92848423641A2900C23F4F /* TableViewDirector.swift */,
-				9A92848523641A2900C23F4F /* TableSection.swift */,
-			);
-			path = Directors;
 			sourceTree = "<group>";
 		};
 		9A92848B23641A2900C23F4F /* Halpers */ = {
@@ -1030,6 +977,7 @@
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftLazy/SwiftLazy.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftSelfAware/SwiftSelfAware.framework",
+				"${BUILT_PRODUCTS_DIR}/TableDirector/TableDirector.framework",
 				"${PODS_ROOT}/VSCCrypto/Carthage/iOS/VSCCommon.framework",
 				"${PODS_ROOT}/VSCCrypto/Carthage/iOS/VSCFoundation.framework",
 				"${BUILT_PRODUCTS_DIR}/ViperMcFlurry/ViperMcFlurry.framework",
@@ -1048,6 +996,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftLazy.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftSelfAware.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TableDirector.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/VSCCommon.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/VSCFoundation.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ViperMcFlurry.framework",
@@ -1100,11 +1049,9 @@
 				9A92855323641A2A00C23F4F /* TicketRouter.swift in Sources */,
 				9A9284EF23641A2900C23F4F /* BaseDB.swift in Sources */,
 				9A92850A23641A2900C23F4F /* Strings.swift in Sources */,
-				9A92851C23641A2900C23F4F /* TableRowAction.swift in Sources */,
 				9A9284FA23641A2900C23F4F /* LMBusinessModel.swift in Sources */,
 				9A92854F23641A2A00C23F4F /* TicketInteractorInput.swift in Sources */,
 				9A92850323641A2900C23F4F /* TicketsAdapter.swift in Sources */,
-				9A92851D23641A2900C23F4F /* ConfigurableCell.swift in Sources */,
 				9A92850523641A2900C23F4F /* AppDelegate.swift in Sources */,
 				9A9284FF23641A2900C23F4F /* JsonMapper.swift in Sources */,
 				9A92850B23641A2900C23F4F /* Assets.swift in Sources */,
@@ -1116,14 +1063,12 @@
 				9A92854C23641A2A00C23F4F /* TicketViewOutput.swift in Sources */,
 				9A92852423641A2900C23F4F /* UIAssistent.swift in Sources */,
 				9A92853223641A2A00C23F4F /* ScanInteractorOutput.swift in Sources */,
-				9A92851923641A2900C23F4F /* TableRowBuilder.swift in Sources */,
 				9A92850423641A2900C23F4F /* BlockDaoAdapter.swift in Sources */,
 				9A92852923641A2900C23F4F /* ScanAssembly.swift in Sources */,
 				9A92852C23641A2900C23F4F /* ScanPresenter.swift in Sources */,
 				9A9284F223641A2900C23F4F /* BaseDaoAdapter.swift in Sources */,
 				9A92851323641A2900C23F4F /* MD5.swift in Sources */,
 				9A92853823641A2A00C23F4F /* HistoryModuleInput.swift in Sources */,
-				9A92851F23641A2900C23F4F /* TableSection.swift in Sources */,
 				9A92852623641A2900C23F4F /* BaseUIViewController.swift in Sources */,
 				9A9284EE23641A2900C23F4F /* HuntsmanDB.xcdatamodeld in Sources */,
 				9A92854423641A2A00C23F4F /* HistoryRouterInput.swift in Sources */,
@@ -1133,7 +1078,6 @@
 				9A9284FE23641A2900C23F4F /* JsonMapperProtocol.swift in Sources */,
 				9A92850023641A2900C23F4F /* BaseRemoteService.swift in Sources */,
 				9A92854823641A2A00C23F4F /* TicketModuleInput.swift in Sources */,
-				9A92851E23641A2900C23F4F /* TableViewDirector.swift in Sources */,
 				9A9284ED23641A2900C23F4F /* CoreDataProtocol.swift in Sources */,
 				9A92852B23641A2900C23F4F /* ScanModuleOutput.swift in Sources */,
 				9A92854B23641A2A00C23F4F /* TicketViewInput.swift in Sources */,
@@ -1150,7 +1094,6 @@
 				9A92853923641A2A00C23F4F /* HistoryModuleOutput.swift in Sources */,
 				9A92855023641A2A00C23F4F /* TicketInteractorOutput.swift in Sources */,
 				9A92852D23641A2A00C23F4F /* ScanViewOutput.swift in Sources */,
-				9A92851A23641A2900C23F4F /* TableRowSwipeBuilder.swift in Sources */,
 				9A92853D23641A2A00C23F4F /* HistoryViewInput.swift in Sources */,
 				9A92853C23641A2A00C23F4F /* HistoryViewOutput.swift in Sources */,
 				9A9284F823641A2900C23F4F /* LMTicket.swift in Sources */,
@@ -1159,7 +1102,6 @@
 				9A92854223641A2A00C23F4F /* HistoryInteractorInput.swift in Sources */,
 				9A92852A23641A2900C23F4F /* ScanModuleInput.swift in Sources */,
 				9A92853E23641A2A00C23F4F /* HistoryViewController.swift in Sources */,
-				9A92851B23641A2900C23F4F /* CellBuilder.swift in Sources */,
 				9A92852723641A2900C23F4F /* BasePresenter.swift in Sources */,
 				9A92850223641A2900C23F4F /* DatabaseAssembly.swift in Sources */,
 				9A92851823641A2900C23F4F /* MainViewConfigurator.swift in Sources */,
