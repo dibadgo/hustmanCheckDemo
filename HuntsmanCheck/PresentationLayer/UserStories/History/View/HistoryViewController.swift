@@ -34,11 +34,11 @@ class HistoryViewController: BaseUIViewController {
 
 extension HistoryViewController: HistoryViewInput {
     func showSuccess(message: String) {
-        showAlert(with: message, title: "Отлично!")
+        showAlert(with: message, title: L10n.History.okButton)
     }
 
     func showLoading() {
-        lodingView.startLoading(with: "Выгрузка данных...")
+        lodingView.startLoading(with: L10n.History.uploading)
         lodingView.isHidden = false
         historyTableView.isHidden = true
     }

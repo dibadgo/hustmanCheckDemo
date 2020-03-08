@@ -20,8 +20,12 @@ internal enum L10n {
   }
 
   internal enum History {
+    /// Отлично!
+    internal static let okButton = L10n.tr("Localizable", "History.OkButton")
     /// Вызгрузка данных произведена успешно
     internal static let successfullyUpload = L10n.tr("Localizable", "History.successfullyUpload")
+    /// Выгрузка...
+    internal static let uploading = L10n.tr("Localizable", "History.uploading")
   }
 
   internal enum Scan {
