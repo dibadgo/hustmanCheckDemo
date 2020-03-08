@@ -21,7 +21,7 @@ class ScanRouter: ScanRouterInput {
     }
 
     func showTicketModule(with ticket: LMTicket) {
-        transitionHandler.openModule?(usingSegue: StoryboardSegue.Main.showTicketInfo.rawValue)?
+        transitionHandler.openModule?(usingSegue: StoryboardSegue.Scan.showTicketInfo.rawValue)?
                 .thenChain { moduleInput -> RamblerViperModuleOutput? in
 
                     (moduleInput as? TicketModuleInput)?.setTicket(ticket)

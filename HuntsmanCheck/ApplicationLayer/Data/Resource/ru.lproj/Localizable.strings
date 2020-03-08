@@ -21,6 +21,11 @@
 "Scan.cannotDecodeMessage" = "Не удалось распознать QR код";
 
 "History.successfullyUpload" = "Вызгрузка данных произведена успешно";
+"History.uploading" = "Выгрузка...";
+"History.okButton" = "Отлично!";
 
 "Tickets.userHasBlackMarkMessage" = "Посетитель находится в черном списке. Проход запрещен";
 "Tickets.userAlreadyInvitedMessage" = "Зафиксировано повторное посещение.";
+
+"BlackListMark.yes" = "Да";
+"BlackListMark.no" = "Нет";

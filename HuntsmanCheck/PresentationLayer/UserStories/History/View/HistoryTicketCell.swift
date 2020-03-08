@@ -5,6 +5,7 @@
 
 import Foundation
 import UIKit
+import TableDirector
 
 class HistoryTicketCell: UITableViewCell, ConfigurableCell {
 
